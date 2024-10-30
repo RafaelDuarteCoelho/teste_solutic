@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="jumbotron text-center">
+    <h1 class="display-4">Bem-vindo ao Sistema de Gerenciamento de Clientes</h1>
+    <p class="lead">Gerencie facilmente as informações dos seus clientes.</p>
+    <hr class="my-4">
+    <p>Selecione uma das opções abaixo para começar:</p>
+    <a class="btn btn-primary btn-lg m-2" href="/add-client/" role="button"><i class="fas fa-user-plus"></i> Adicionar Cliente</a>
+    <a class="btn btn-secondary btn-lg m-2" href="/search-client/" role="button"><i class="fas fa-search"></i> Consultar Cliente</a>
+</div>
+{% endblock %}
